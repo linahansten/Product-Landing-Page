@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding-top: 150px;
+    background-color: rgb(255, 238, 218);
+}
+
+#nav-bar {
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: bisque;
+    align-items: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#email {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(251, 245, 237);
+    width: 250px;
+    height: 25px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#submit.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(251, 245, 237);
+    width: 100px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.level {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.pris {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(251, 245, 237);
+    width: 100px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.logo p,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+footer span,
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+@media only screen and(width:550px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 650px) {
+    nav {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 50px;
+    }
+}
